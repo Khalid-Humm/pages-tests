@@ -1,0 +1,1029 @@
+    /* Small Screens */
+
+@media (max-width: 479px){
+  
+/*   Common style   */
+  
+  .page-content .top-section .dropdown-menu{
+
+    left: -40px !important;
+
+  }
+  
+  .page-content .top-section .page-logo{
+    
+    width: 25%;
+  }
+  
+  .page-content .top-section .dashboard-slogan{
+    
+    width: 75%
+  }
+  
+/* Login page Style */
+  
+  
+  .bg .content-overlay{
+    
+    padding: 6px 0 !important;
+  }
+  
+  
+  .bg .content-overlay .content{
+
+    width: 90%;
+    padding-bottom: 8px !important;
+    padding-top: 2px !important;
+    overflow: auto;
+    height: 84%
+   
+  }
+
+  .bg .content-overlay .login-content{
+    
+    height: 62%
+  }
+  
+  .bg .content-overlay .content h5{
+
+    margin-top: 30px;
+    color: #22509B;
+    font-weight: 500
+
+  }
+
+  .bg .content-overlay .content .custom-control a{
+    
+    font-size: 13px;
+    margin-top: 4px
+  }
+  
+  .bg .content-overlay .content button{
+
+    margin-top: 10px;
+
+  }
+    
+  .bg .content-overlay .register-btn{
+
+     padding-bottom: 12px;
+     margin: auto;
+     width: 200px
+  }
+
+  
+  
+  
+  
+/****  Dashboard Page Style   ****/
+
+
+  .bg{
+    
+    background-size: cover
+  }
+  
+  .page-logo{
+    
+    margin-top: 20px
+  }
+
+  .profile-options{
+
+      padding-top: 0 !important;
+  }
+
+  .infobox h5{
+
+    text-align: center
+  }
+
+  .infobox .info-card{
+    
+    width: 245px !important;
+    margin: auto
+  }
+
+  .infobox .dept{
+    
+    margin: 0;
+  }
+
+  .infobox .dept ul{
+
+    width: 180px;
+    margin: auto;
+    padding: 0 !important;
+  }
+
+  .infobox .dept ul li{
+
+    margin: 4px
+  }
+
+  .infobox .dashboard-progress{
+    
+    margin-top: 20px
+  }
+  
+
+  .infobox .dashboard-progress #circle canvas{
+
+    width: 200px;
+    margin: auto;
+    display: block
+  }
+
+  .infobox .dashboard-progress #circle strong{
+
+    top: 70px;
+    left: 0;
+  }
+  
+  
+  /****  Department page style  ****/
+  
+  .infobox{
+    
+    padding: 52px 4px !important;
+  }
+  
+  .infobox .department-groups .tab-content ul li{
+
+     margin: 8px 4px;
+     padding: 4px 30px;
+
+  }
+  
+  .infobox button{
+
+    width: 40% !important;
+    margin-top: 12px
+  }
+
+   .department-progress{
+    margin: auto;
+    margin-top: 26px;
+    width: 65%;
+   
+  }
+  
+  .department-progress .progress{
+  
+     margin-top: 2px !important;
+ 
+  }
+
+  
+  
+  /**** Article Page Style****/
+
+ 
+  .article-timer .timer-box{
+
+    margin: auto
+
+  }
+
+  .subject{
+
+    max-height: 320px;
+    margin: 30px auto !important;
+    width: 85% 
+  }
+
+  
+  .subject .carousel .carousel-inner{
+
+    width: 90%;
+    margin: auto
+
+  }
+
+  .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 150px
+}
+  
+  .subject .carousel .carousel-inner .carousel-item p{
+
+    font-size: 13px;
+  }
+
+   .complete-btn button{
+
+    float: none !important;
+    margin: 4px auto;
+    display: block
+
+   }
+
+  footer img{
+
+    width: 12%;
+  }
+
+  
+}
+
+
+
+
+
+
+
+/******** Smart Phones ******/
+ 
+@media (min-width: 480px) and (max-width: 575px){
+  
+  /*   Common style   */
+  
+   .page-content .top-section .dropdown-menu{
+
+    left: -40px !important;
+
+   }
+
+   .bg .content-overlay{
+
+     padding: 6px 0 !important;
+   }
+  
+    .bg .content-overlay .content{
+
+      width: 78%;
+      padding-bottom: 12px !important;
+      padding-top: 4px !important;
+      max-height: 84%;
+      overflow: auto
+    }
+
+    .bg .content-overlay .content h5{
+
+      margin-top: 30px;
+      color: #22509B;
+      font-weight: 500
+
+    }
+
+    .bg .content-overlay .content button{
+
+       margin-top: 10px;
+    }
+
+    .bg .content-overlay .register-btn{
+
+       padding-bottom: 12px;
+       margin: auto;
+       width: 200px
+    }
+
+  
+  
+  
+  
+ /****  Dashboard Page Style   ****/
+
+
+  .bg{
+    
+    background-size: cover
+  }
+  
+  .page-content .top-section .page-logo{
+  
+    width: 25%;
+    margin: auto
+  }
+
+  .page-content .top-section .dashboard-slogan{
+    
+    width: 70%
+  }
+  
+  .profile-options{
+
+    padding-top: 0 !important;
+    
+  }
+
+  .infobox h5{
+
+    text-align: center
+  }
+
+  .infobox .info-card{
+    
+    width: 100% !important;
+    margin: auto
+  }
+
+  .infobox .dept{
+    
+    margin: 0;
+  }
+
+  .infobox .dept ul li{
+
+    padding: 4px 20px;
+  }
+
+  .infobox .dashboard-progress{
+    
+    margin-top: 25px
+  }
+  
+
+  .infobox .dashboard-progress #circle canvas{
+
+    width: 200px;
+    margin: auto;
+    display: block
+  }
+
+  .infobox .dashboard-progress #circle strong{
+
+    top: 70px;
+    left: 0;
+  }
+  
+  
+  
+   /****  Department page style  ****/
+  
+  .infobox{
+    
+    padding: 42px 4px !important;
+  }
+  
+  
+  .department-progress{
+    margin: auto;
+    margin-top: 26px;
+    width: 55%;
+   
+  }
+  
+  .department-progress .progress{
+  
+     margin-top: 2px !important;
+ 
+  }
+
+  .infobox .department-groups .tab-content ul li{
+
+     margin: 8px 4px;
+     padding: 4px 30px;
+
+  }
+  
+  
+  
+  /**** Article Page Style****/
+
+ 
+  .article-timer .timer-box{
+
+    margin: auto
+
+  }
+
+  .subject{
+
+    max-height: 320px;
+    margin: 30px auto !important;
+    width: 85% 
+  }
+
+  .subject .carousel .carousel-inner{
+
+    width: 90%;
+    margin: auto
+
+  }
+  
+   .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 180px
+  }
+
+  .subject .carousel .carousel-inner .carousel-item p{
+
+    font-size: 13px;
+  }
+  
+  .complete-btn button{
+
+    float: none !important;
+    margin: 4px auto;
+    display: block
+
+  }
+
+  footer img{
+
+    width: 12%;
+  }
+
+  
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    
+    /* Login Page */
+    
+  .bg .content-overlay .content{
+
+    width: 60%;
+    padding-bottom: 12px !important;
+    padding-top: 14px !important;
+    overflow: auto;
+    height: 84%
+  }
+
+  .bg .content-overlay .content .logo{
+    
+    width: 36%
+  }
+  
+  .bg .content-overlay .content h5{
+
+    margin-top: 20px;
+    color: #22509B;
+    font-weight: 500
+
+  }
+
+  .bg .content-overlay .content button{
+
+     margin-top: 10px;
+  }
+
+
+  .bg .content-overlay .register-btn{
+
+     padding-bottom: 6px;
+     margin: auto;
+     width: 200px
+  }
+  
+  
+  
+  
+  
+ /****  Dashboard Page Style   ****/
+
+
+  .infobox .info-card{
+    
+    width: 100% !important;
+  }
+  
+  .infobox .dept ul{
+
+    margin-top: 0px;
+    padding: 0 !important;
+  }
+
+  .infobox .dept ul li{
+
+   padding: 4px 9px;
+   font-size: 12px;
+  }
+
+  .infobox .dashboard-progress #circle canvas{
+
+    width: 95%;
+  }
+
+  .infobox .dashboard-progress #circle strong{
+
+    top: 45px;
+    left: 0;
+    font-size: 7vw
+  }
+    
+  
+  
+   /****  Department page style  ****/
+  
+  .infobox{
+    
+    padding: 14px !important;
+  }
+  
+  .department-progress{
+    margin: auto;
+    width: 55%;
+   
+  }
+  
+  .infobox .department-groups .tab-content ul li{
+
+     padding: 4px 30px;
+
+  }
+  
+  
+  
+  
+  
+  /**** Article Page Style****/
+
+ 
+  .article-timer .timer-box{
+
+    margin: auto
+
+  }
+
+  .subject{
+
+    max-height: 320px;
+    max-width: 50%;
+    margin-left: 80px !important;
+      
+  }
+  
+  .subject .carousel .carousel-inner{
+
+    width: 90%;
+    margin: auto;
+    text-align: center
+
+  }
+  
+  .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 250px
+  }
+
+  .subject .carousel .carousel-inner .carousel-item p{
+
+    font-size: 13px;
+  }
+  
+  .complete-btn button{
+
+    float: none !important;
+    margin: 4px auto;
+    display: block
+
+  }
+
+  footer img{
+
+    width: 8%;
+  }
+
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 879px){
+    
+    /*Login page*/
+    
+  .bg .content-overlay .content{
+
+    width: 50%;
+    padding-bottom: 12px !important;
+    padding-top: 14px !important;
+    height: 88%
+  }
+    
+  
+  
+  
+  /****  Dashboard Page Style   ****/
+
+
+  .infobox .info-card{
+    
+    width: 100% !important;
+  }
+  
+  .infobox .dept ul{
+
+    margin-top: 0px;
+    padding: 0 !important;
+  }
+
+  .infobox .dept ul li{
+
+   padding: 4px 20px;
+  }
+
+  .infobox .dashboard-progress #circle canvas{
+
+    width: 95%;
+  }
+
+  .infobox .dashboard-progress #circle strong{
+
+    top: 60px;
+    left: 0;
+    font-size: 7vw
+  }
+  
+  
+  
+  
+   /****  Department page style  ****/
+  
+  .infobox{
+    
+    padding: 42px 14px !important;
+  }
+  
+  
+  /****  Article page style  ****/
+  
+  .complete-btn button{
+
+    float: none !important;
+    margin: 4px auto;
+    display: block
+
+  }
+  
+  .subject .carousel .carousel-inner{
+
+    width: 90%;
+    margin: auto;
+    text-align: center
+
+  }
+  
+  
+  .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 240px
+  }
+}
+
+@media (min-width: 880px) and (max-width: 1000px){
+    
+    /****  Dashboard page style  ****/
+    
+   .infobox .dashboard-progress #circle strong{
+
+    left: -10px;
+  }
+  
+  
+    /****  Article page style  ****/
+    
+  .subject .carousel .carousel-inner{
+
+    width: 90%;
+    margin: auto;
+    text-align: center
+
+  }
+
+  
+  .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 240px
+  }
+  
+}
+
+
+
+
+
+
+
+
+     /* Wide Screen */
+
+
+@media (min-width: 1200px) and (max-width: 1399px){
+    
+    /**** Common  ****/
+    
+  .bg .content-overlay .content{
+
+    width: 40%;
+    height: 92%;
+    overflow: auto
+   
+  }
+  
+  .bg .top-section .page-logo img{
+    
+    width: 70%
+  }
+  
+  .bg .content-overlay .login-content{
+    
+    height: 70% !important;
+  }
+    
+    /****  Dashboard page style  ****/
+  
+  .infobox .dashboard-progress #circle strong{
+
+    left: -70px;
+      
+  }
+  
+  
+  .infobox button{
+  
+    width: 18% !important;
+  }
+  
+  
+  /****  Article page style  ****/
+  
+  .subject{
+    
+    max-height: 340px
+  }
+  
+  .subject .carousel .carousel-inner .carousel-item{
+  
+    padding-bottom: 20px;
+
+  }
+  
+  .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 260px
+}
+
+  .subject .carousel .carousel-inner .carousel-item p{
+
+    margin-top: 40px;
+    line-height: 28px
+
+  }
+  
+
+  
+  footer img{
+
+    width: 55px;
+  }
+  
+}
+
+@media (min-width: 1400px) and (max-width: 1599px){
+    
+    /****  Login page style  ****/
+  
+  .bg .content-overlay .content{
+
+    width: 35%;
+    height: 92%;
+    overflow: auto
+   
+  }
+  
+  .bg .content-overlay .login-content{
+    
+    height: 68% !important;
+  }
+  
+  .bg .top-section .page-logo img{
+    
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .bg .content-overlay .content{
+
+    width: 40%;
+    
+  }
+  
+  /****  Dashboard page style  ****/
+  
+  .infobox .dashboard-progress #circle strong{
+
+    left: -45px;
+      
+  }
+    
+  
+  .infobox button{
+  
+    width: 18% !important;
+  }
+  
+  
+    /****  Article page style  ****/
+    
+  .subject{
+    
+    max-height: 340px
+  }
+  
+  .subject .carousel .carousel-inner .carousel-item{
+  
+    padding-bottom: 20px;
+
+  }
+  
+  .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 260px
+  }
+
+
+  .subject .carousel .carousel-inner .carousel-item p{
+
+    margin-top: 40px;
+    line-height: 28px
+
+  }
+  
+  
+  
+  footer img{
+
+    width: 55px;
+  }
+  
+  
+}
+
+@media (min-width: 1600px) and (max-width: 1799px){
+    
+  .bg{
+    
+    background-size: cover
+  }
+  
+  
+  .bg .content-overlay .content{
+
+    width: 40%;
+    height: 92%;
+    overflow: auto
+   
+  }
+  
+  .bg .top-section .page-logo img{
+    
+    width: 70%
+  }
+  
+  
+  .bg .content-overlay .content{
+
+    width: 35%;
+  }
+    
+  
+  .bg .content-overlay .login-content{
+    
+    height: 70% !important;
+  }
+  
+  /****  Dashboard page style  ****/
+  
+  .infobox .dashboard-progress #circle strong{
+
+    left: -50px;
+      
+  }
+  
+  .infobox button{
+  
+    width: 18% !important;
+  }
+  
+  /****  Article page style  ****/
+  
+  .subject{
+    
+    max-height: 360px
+  }
+  
+  .subject .carousel .carousel-inner .carousel-item{
+  
+    padding-bottom: 20px;
+
+  }
+
+  .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 280px
+}
+  
+  .subject .carousel .carousel-inner .carousel-item p{
+
+    margin-top: 40px;
+    line-height: 28px
+
+  }
+  
+  
+  
+  
+  footer img{
+
+    width: 55px;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 2600px){
+    
+  
+  .bg{
+    
+    background-size: cover
+  }
+  
+  
+  .bg .content-overlay .content{
+
+    width: 40%;
+    height: 92%;
+    overflow: auto
+   
+  }
+  
+  .bg .content-overlay .login-content{
+    
+    height: 70% !important;
+  }
+  
+  .bg .top-section .page-logo img{
+    
+    width: 70%
+  }
+  
+  
+  
+  
+  .bg .content-overlay .content{
+
+     width: 30%;
+  }
+  
+  
+  
+    /****  Dashboard page style  ****/
+    
+  .infobox .dashboard-progress #circle strong{
+
+    left: -60px;
+      
+  }
+  
+  
+  .infobox button{
+  
+    width: 18% !important;
+  }
+  
+  
+    /****  Article page style  ****/
+    
+  .subject{
+    
+    max-height: 400px
+  }
+  
+  .subject .carousel .carousel-inner .carousel-item{
+  
+    padding-bottom: 20px;
+
+  }
+
+  .subject .carousel .carousel-inner .carousel-item embed{
+   
+    margin-top: 20px;
+    height: 300px
+}
+  
+  .subject .carousel .carousel-inner .carousel-item p{
+
+    margin-top: 40px;
+    line-height: 28px
+
+  }
+  
+  
+  
+  
+  
+  footer img{
+
+    width: 55px;
+  }
+}

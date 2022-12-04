@@ -1,0 +1,462 @@
+/*** Common Style ****/
+
+.bg{
+
+  background: url(../images/content-bg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  }
+
+  .pt-5, .py-5 {
+    margin-top: 20px;
+    }
+
+.page-content{
+  
+  min-height: 100vh;
+  background-color: rgba(255,255,255,.9);
+}
+
+.page-content .top-section{
+  
+  border-bottom: 1px solid rgba(174,174,174,.5);
+}
+
+.page-content .top-section .dropdown-menu{
+  
+  left: -50px !important;
+  
+}
+
+.infobox h5{
+  
+  color: #333;
+  opacity: .8
+}
+
+.infobox .staff-info h6{
+  
+  font-weight: 550;
+}
+
+.infobox h5{
+  
+  font-weight: 550;
+ 
+}
+
+.infobox .staff-info .info-card{
+  
+  background-image: linear-gradient(to right, #20579A 1%, #25AA91 80%);
+  width: 328px;
+  border-radius: 10px;
+  color: #fff;
+  overflow: hidden;
+  height: 90px
+}
+
+.infobox .staff-info .info-card .user-info ul li{
+  
+  line-height: 13px;
+  font-size: 11px
+ 
+}
+
+footer{
+  
+  background-color: #333;
+  height: 40px;
+  position: absolute;
+  width: 100%;
+  overflow: hidden
+  
+}
+
+footer img{
+  
+  width: 55px;
+  float: left
+}
+
+footer p{
+  
+  color: #fff;
+  font-size: 12px;
+  text-align: center
+}
+
+
+/*** Login Page Style ****/
+
+.login-bg{
+  
+  height: 100vh
+}
+
+.bg .content-overlay{
+  
+  background-color: rgba(0,0,0,.6);
+  height: 100vh;
+  padding-top: 20px
+}
+
+.bg .content-overlay .content{
+  
+  width: 45%;
+  background-color: rgba(255,255,255,.9);
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+  height: 88%;
+   
+}
+
+.bg .content-overlay .content:hover{
+  
+  background-color: rgba(255,255,255,1);
+}
+
+.bg .content-overlay .content h5{
+  
+  margin-top: 30px;
+  color: #20579a;
+  font-weight: 500
+ 
+}
+
+.bg .content-overlay .content .form-group input,
+.bg .content-overlay .content .form-group select{
+  
+  border: 1px solid #20579a;
+}
+
+.bg .content-overlay .content .form-group select{
+  
+  height: 35px;
+  padding: 0 8px
+}
+
+.bg .content-overlay .login-content{
+  
+  height: 64% !important;
+  margin-top: 30px
+ 
+}
+
+.bg .content-overlay #reset-forms{
+  
+  display: none
+}
+
+.bg .content-overlay .content .register-btn,
+.bg .content-overlay .content .login-btn{
+  
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #20579A, #25AA91);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 20px
+  
+}
+
+.bg .content-overlay .content .login-btn{
+  
+  margin-top: 20px
+}
+
+.bg .content-overlay .register-btn a{
+  
+  border: 1px solid #fff;
+  padding: 3px 12px;
+  border-radius: 2px;
+  color: #fff;
+  opacity: .9;
+  font-weight: 600;
+  margin: 0 2px;
+  transition: all .3s ease-in-out
+}
+
+.bg .content-overlay .register-btn a:hover{
+  
+  background-color: #fff;
+  color: #000
+  
+}
+
+.login-footer{
+  
+  position: absolute;
+  bottom: 0
+}
+
+
+/****  Dashboard Page Style   ****/
+
+
+.infobox .breadcrumb-item a{
+  
+  color: #20579a
+}
+
+.infobox .dept{
+  
+  margin-top: 60px
+}
+
+.infobox .dept ul li{
+  
+  display: inline-block;
+  background-color: #AEAEAE;
+  text-transform: uppercase;
+  padding: 4px 26px;
+  margin: 0 4px;
+  font-size: 14px;
+  font-weight: 700
+  
+}
+
+.infobox .dept ul li.complete{
+  
+  background-color: #24AB92;
+}
+
+.infobox .dept ul li a{
+  
+  text-decoration: none;
+  color: #fff
+}
+
+
+
+.infobox .dashboard-progress #circle{
+  
+  margin-top: 25px;
+  position: relative
+}
+
+.infobox .dashboard-progress #circle strong{
+  
+  color: #24AB92;
+  font-size: 42px;
+  position: absolute;
+  top: 80px;
+  left: -30px;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+
+
+
+
+/**** Department Page style ****/
+
+
+.infobox .breadcrumb-options ul{
+  
+  padding: 6px 0 8px 14px
+}
+
+.infobox .breadcrumb-options li a{
+  
+  font-size: 14px
+}
+
+.infobox .breadcrumb-options li.active{
+  
+  color: #24AB92;
+  font-weight: 600
+}
+
+.department-progress .progress{
+  
+  height: 25px;
+  background-color: rgba(174,174,174,.8);
+ 
+}
+
+.department-progress .progress-bar{
+  
+  background-color: #24AB92;
+  font-weight: bold;
+  font-size: 18px;
+  width: 56%;
+}
+
+
+.infobox .department-groups .nav a{
+  
+   color: #333;
+   opacity: .8;
+}
+
+.infobox .department-groups .nav a.active{
+  
+  font-weight: 600
+}
+
+.infobox .department-groups .tab-content ul li{
+  
+  display: inline-block;
+  background-color: #AEAEAE;
+  text-transform: uppercase;
+  padding: 4px 60px;
+  margin: 18px 4px;
+  font-size: 14px;
+  font-weight: 700
+  
+}
+
+.infobox .department-groups .tab-content ul li.complete{
+  
+  background-color: #24AB92;
+}
+
+.infobox .department-groups .tab-content ul li a{
+  
+  text-decoration: none;
+  color: #fff
+}
+
+.infobox button{
+  
+  background-color: #AEAEAE;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700
+}
+
+.infobox button:hover{
+  
+  color: #fff
+}
+
+
+
+
+
+/**** Article Page Style****/
+
+
+.alert-success{
+  
+  margin: 0;
+  padding: 12px 
+}
+
+.article-timer .timer-box{
+  
+  border: 12px solid #B4B5B5;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 40px 20px;
+  
+}
+
+.article-timer .timer-box #countdown{
+  
+  border-radius: 50%;
+  color: #25AA91;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  display: block
+}
+
+
+
+
+
+.subject{
+  
+  background: url(../images/slider-bg.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 0;
+  float: right;
+  max-height: 300px;
+  overflow: hidden
+  
+}
+
+.subject .carousel{
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(174,174,174,.9);
+}
+
+.subject .carousel .carousel-inner{
+  
+  width: 90%;
+  margin: auto;
+  text-align: center
+ 
+}
+
+.subject .carousel .carousel-inner .carousel-item{
+  
+  padding-bottom: 50px;
+ 
+}
+
+.subject .carousel .carousel-inner .carousel-item p{
+  
+  margin-top: 20px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600
+}
+
+.subject .carousel .carousel-inner .carousel-item video{
+  
+  width: 70%
+}
+
+.subject .carousel .carousel-inner .carousel-item embed{
+  
+  width: 90%;
+  height: 230px;
+  margin-top: 20px
+}
+
+.subject .carousel .carousel-indicators li{
+  
+  border-radius: 50%;
+  width: 11px; height: 11px;
+  
+}
+
+.subject .carousel .carousel-indicators li.active{
+  
+  background-color: #333
+  
+}
+
+
+
+.complete-btn button.complete{
+  
+  background-color: #24AB92;
+  letter-spacing: 1px
+  
+}
+
+
+
+
+
+
+
+
+
+
+
