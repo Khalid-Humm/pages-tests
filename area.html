@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+    <head>
+		<meta charset="UTF-8">
+        <meta name="description" content="#">
+        <meta name="keywords" content="#">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Area</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+        
+    </head>
+
+    <body>
+        
+        <section class="bg">   <!--Background and content box-->
+            <div class="page-content">
+                <!-- Top Section -->
+                <div class="top-section pb-2 container-lg">
+                    <div class="row">
+                        <div class="page-logo col-sm-2"> <!-- Logo Part -->
+                            <img src="images/logo.png" alt="Logo" class="img-fluid">
+                        </div>
+                        <div class="dashboard-slogan col-sm-7 pt-3"> <!-- Slogan -->
+                            <h5 class="text-uppercase"> Knowledge competency base </h5>
+                            <h6 class="text-uppercase"> Area Name </h6>
+                        </div>       
+                        <div class="profile-options col-sm-3 pt-3 pr-4"> <!-- Profile Settings -->
+                            <div class="dropdown float-right">
+                              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                Profile
+                              </button>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Edit</a>
+                                <a class="dropdown-item" href="#">Change Password</a>
+                                <a class="dropdown-item" href="login.html">Logout</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Information Section -->
+                
+                <div class="bg-white p-5 rounded shadow infobox pt-5 container-lg">
+                    <div class="breadcrumb-options">
+                        <ul class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
+                          <li class="breadcrumb-item active">Area</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="staff-info col-sm-4">
+                            <h5 class="text-uppercase mb-3"> staff info </h5>
+                            <!-- Info Card -->
+                            <div class="info-card">
+                                <div class="user-pic float-left pt-1 pl-1">
+                                    <img src="images/user.png" alt="user photo" class="img-fluid">
+                                </div>
+                                <div class="user-info float-left pl-3 pt-1">
+                                    <h6 class="text-uppercase"> KHALID HUMMADI </h6>
+                                    <ul class="list-unstyled">
+                                        <li> Job ID: 1000901 </li>
+                                        <li> Email: Khalid.Hummadi@sadara.com </li>
+                                        <li> Dep: Train-3 HPPE </li>
+                                        <li> Group: B </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="department-progress col-sm-5">
+                            <h5 class="text-uppercase"> Progress </h5>
+                            <div class="progress mt-5">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated">56%</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Department Groups-->
+                    <div class="department-groups">
+                        <h5 class="text-uppercase mb-3 mt-4"> Utility Area </h5>
+                        <div class="groups-select">
+                            <ul class="nav nav-tabs">
+                              <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#home">Procedures</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu1">Work Packages</a>
+                              </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <!--First Group-->
+                          <div class="tab-pane container active" id="home">
+                                <ul class="list-unstyled mt-3">
+                                    <li class="complete"> <a href="article.html"> Page 1 </a> </li>
+                                    <li class="complete"> <a href="article.html"> Page 2 </a> </li>
+                                    <li class="complete"> <a href="article.html"> Page 3 </a> </li>
+                                    <li class="complete"> <a href="article.html"> Page 4 </a> </li>
+                                    <li class="complete"> <a href="article.html"> Page 5 </a> </li>
+                                    <li class="complete"> <a href="article.html"> Page 6 </a> </li>
+                                    <li> <a href="article.html"> Page 7 </a> </li>
+                                    <li> <a href="article.html"> Page 8 </a> </li>
+                                </ul>
+                           </div>
+                            <!--Second Group-->
+                           <div class="tab-pane container fade" id="menu1">
+                                <ul class="list-unstyled mt-3">
+                                    <li> <a href="article.html"> Page 1 </a> </li>
+                                    <li> <a href="article.html"> Page 2 </a> </li>
+                                    <li> <a href="article.html"> Page 3 </a> </li>
+                                    <li> <a href="article.html"> Page 4 </a> </li>
+                                </ul>
+                           </div>
+                        </div>
+                        <button type="submit" class="btn w-25 float-right text-uppercase">Submit</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <footer class="pt-2 pl-2">
+            <p> Copyrights &copy; 2020, PTIT. All Rights Reserved.</p>
+        </footer>
+            
+            
+          
+        
+	
+		
+        
+        
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+	</body>
+    
+    
+    
+    
+    
+
+
+</html>
